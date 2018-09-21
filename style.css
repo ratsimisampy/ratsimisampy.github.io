@@ -13,7 +13,9 @@
 h1,h2,h3{line-height:1.2}
 
 #content{
-	color : #B3B8E7 ;
+	border: 2px solid red;
+    	padding: 10px;
+    	border-radius: 25px;
 }
 
 #footer{
