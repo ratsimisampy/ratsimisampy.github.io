@@ -20,18 +20,17 @@ h1,h2,h3{line-height:1.2}
 }
 
 .media{
-	background: url('img/squarel.jpg') no-repeat;
+	
 	float: left;
-	background-repeat: no-repeat;
 	/* padding-left: 50px; */
-	width:30%;
-	overflow:hidden;
-	margin-right: 1em;
+	max-width:100px;
+	height: auto;
+	
 }
 
 .text-right{
 	float: left;
-	width: 60%;
+	width: auto;
 }
 .subcontent {
 	display: block;
