@@ -33,7 +33,11 @@ h1,h2,h3{line-height:1.2}
 	float: left;
 	width: 60%;
 }
-
+.subcontent {
+	display: block;
+	content: "";
+	clear: both;	
+}
 
 #footer{
 	text-align: right;
