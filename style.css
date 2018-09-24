@@ -21,9 +21,9 @@ h1,h2,h3{line-height:1.2}
 
 .media{
 	background-image: url('img/squarel.jpg');
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat;
 	padding-left: 50px;
-	/ * display: block; */
+	 display: block; */
 }
 
 #footer{
