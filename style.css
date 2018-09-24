@@ -23,8 +23,9 @@ h1,h2,h3{line-height:1.2}
 	
 	float: left;
 	/* padding-left: 50px; */
-	max-width:100px;
-	height: auto;
+	width:40%;
+	overflow: hidden;
+	
 	
 }
 
