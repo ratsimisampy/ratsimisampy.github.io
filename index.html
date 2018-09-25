@@ -48,15 +48,9 @@ href="http://motherfuckingwebsite.com/">this site's inspiration</a> did. What I'
 <button onclick="myFunction()">Try it</button>
 
 <script>
-setTimeout(function myFunction() {
-    var txt;
-    if (confirm("Press a button!")) {
-        txt = "You pressed OK!";
-    } else {
-        txt = "You pressed Cancel!";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}, 3000);
+function myFunction() {
+    setTimeout(function(){ alert("Hello"); }, 3000);
+}
     
 </script>
 <hr>
