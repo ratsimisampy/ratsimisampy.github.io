@@ -19,24 +19,9 @@ h1,h2,h3{line-height:1.2}
 	margin: 10px 0 0 0;
 }
 
-.media{
-	
+.left {
 	float: left;
-	/* padding-left: 50px; */
-	width:40%;
-	overflow: hidden;
-	
-	
-}
-
-.text-right{
-	float: left;
-	width: auto;
-}
-.subcontent {
-	display: block;
-	content: "";
-	clear: both;	
+	padding: 0 20px 20px 0;
 }
 
 #footer{
