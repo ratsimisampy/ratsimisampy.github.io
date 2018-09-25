@@ -7,7 +7,24 @@ charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Better Motherfucking Website</title>
 <link rel="stylesheet" href="style.css">
-<script type="script/javascript" src="my_script.js"> </script>
+<!-- <script type="script/javascript" src="my_script.js"> </script> -->
+    <script type="script/javascript"> 
+    function myFunction() {
+    setTimeout(function(){  
+                    //here is confirm box code only
+                         var txt = ""; 
+                         if (confirm("Press a button!")) {
+                            txt = "You pressed OK!"; // ---> here we add Url and open new browser page
+                         } 
+                         else {
+                            txt = "You pressed Cancel!"; // --> here nothing to do
+                            }
+                   // end of Confirm box
+                         }, 3000);
+       // end of setTimeout
+}
+    
+    </script>
 </head>
 <body onload="myFunction()">
 <div id="container">
