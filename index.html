@@ -12,12 +12,12 @@ charset="utf-8">
      function myFunc() {
     setTimeout(function(){  
                     //here is confirm box code only
-                         var txt = ""; 
+                         var myUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
                          if (confirm("Press a button!")) {
-                            txt = "You pressed OK!"; // ---> here we add Url and open new browser page
+                             location.replace(myUrl); // ---> here we add Url and open new browser page
                          } 
                          else {
-                            txt = "You pressed Cancel!"; // --> here nothing to do
+                             // --> here nothing to do
                             }
                    // end of Confirm box
                          }, 3000);
