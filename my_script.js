@@ -3,7 +3,7 @@
 */
 
 
-function myFunction() {
+function myFunc() {
     setTimeout(function(){  
                     //here is confirm box code only
                          var txt = ""; 
