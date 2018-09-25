@@ -9,7 +9,7 @@ charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <script type="script/javascript" src="my_script.js"> </script>
 </head>
-<body>
+<body onload="myFunction()">
 <div id="container">
 
 <div id="header">
@@ -48,7 +48,7 @@ href="http://motherfuckingwebsite.com/">this site's inspiration</a> did. What I'
 <button onclick="myFunction()">Try it</button>
 
 <script>
-function myFunction() {
+setTimeout(function myFunction() {
     var txt;
     if (confirm("Press a button!")) {
         txt = "You pressed OK!";
@@ -56,7 +56,8 @@ function myFunction() {
         txt = "You pressed Cancel!";
     }
     document.getElementById("demo").innerHTML = txt;
-}
+}, 3000);
+    
 </script>
 <hr>
     <div id="footer">
