@@ -3,12 +3,8 @@
 */
 
 
-function Question() {
-    if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-} else {
-    txt = "You pressed Cancel!";
-} 
+function myFunction() {
+    setTimeout(function(){ alert("Hello"); }, 3000);
 }
 
 
