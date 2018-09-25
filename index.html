@@ -44,7 +44,20 @@ href="http://motherfuckingwebsite.com/">this site's inspiration</a> did. What I'
 <br>
 - Eleanor Roosevelt</blockquote>
 </div>
-<p><a href="#" onClick="Question();">Question!!</a></p>
+<p>
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
 <hr>
     <div id="footer">
 <h2>Epilogue</h2>
